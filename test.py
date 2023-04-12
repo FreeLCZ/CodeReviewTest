@@ -6,3 +6,5 @@ for file in os.listdir(path):
     if file.endswith(".bmp"):
         img = Image.open(os.path.join(path, file))
         img.show()
+        
+a = 1
